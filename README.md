@@ -22,7 +22,8 @@ Enter the code for admin.py and models.py
 Execute Django admin and create 10 Football players
 
 ## PROGRAM
-```
+```+
+
 admin.py
 from django.contrib import admin
 from.models import football_players,football_playersAdmin
