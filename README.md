@@ -4,9 +4,6 @@
 ## AIM
 To develop a Django application to store and retrieve data from a Football Players database using Object Relational Mapping(ORM).
 
-
-
-
 ## DESIGN STEPS
 
 ### STEP 1:
@@ -22,13 +19,13 @@ Enter the code for admin.py and models.py
 Execute Django admin and create 10 Football players
 
 ## PROGRAM
-```+
-
+```
 admin.py
 from django.contrib import admin
 from.models import football_players,football_playersAdmin
 admin.site.register(football_players,football_playersAdmin)
-models.py U
+
+models.py
 from django.db import models
 from django.contrib import admin
 class football_players(models.Model):
